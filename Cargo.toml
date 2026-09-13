@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "hdpath-walk"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "HD path walker — next index, unique addresses."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/hdpath-walk"
+
+[[bin]]
+name = "hdpath-walk"
+path = "src/main.rs"
